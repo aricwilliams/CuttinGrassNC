@@ -16,7 +16,7 @@ namespace CuttinGrassNC.Controllers
 
         public CustomersController(ApplicationDbContext context)
         {
-            _context = context;
+          _context = context;
         }
 
         // GET: Customers
