@@ -5,7 +5,7 @@ namespace CuttinGrassNCAPI.Repository.IRepository
     public interface IClientRepository
     {
         ICollection<Customers> GetCustomers();
-        Customers GetCustomers(int customerId);
+        Customers GetCustomer(int customerId);
         bool CustomerExists(int id);
         bool CustomerExistsPost(string name);
         bool CreateCustomer(Customers customer);
